@@ -1,0 +1,26 @@
+li:nth-child(odd){
+    background-color: red;
+    text-align: center;
+    list-style: none;
+    text-transform: capitalize;
+    font-size: x-large;
+    color: blue;
+    padding: 20px;
+    font-family: cursive;
+    li:hover{
+        background-color: blueviolet;
+    }
+}
+li:nth-child(even){
+    background-color: goldenrod;
+    text-align: center;
+    list-style: none;
+    text-transform: capitalize;
+    font-size: x-large;
+    color: blue;
+    padding: 20px;
+    font-family: cursive;
+    li:hover{
+        background-color: blueviolet;
+    }
+}

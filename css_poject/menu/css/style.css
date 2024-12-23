@@ -1,0 +1,45 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+nav{
+    background-color: red;
+}
+.main_menu ul{
+ padding: 10px;
+}
+.main_menu ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 1px;
+}
+.main_menu ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 20px 15px;
+}
+#service{
+    position: relative;
+}
+.main_menu ul ul li{
+    background-color: green;
+}
+
+.main_menu ul ul{
+    position: absolute;
+    top: 16px;
+    left: -22px;
+    display: none;
+}
+.main_menu ul ul li{
+    display: block;
+    padding: 10px;
+    background-color:rgb(7, 6, 82);
+}
+.main_menu ul ul li:hover{
+    background-color: gray;
+}
+.main_menu ul li:hover ul{
+    display: block;
+} 
